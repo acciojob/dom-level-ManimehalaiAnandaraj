@@ -1,5 +1,5 @@
 //your JS code here. If required.
-function domlevelfind(level) {
+function domlevelfind() {
 	const element=document.getElementById("level");
 	if(!element)
 	{
