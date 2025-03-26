@@ -5,16 +5,16 @@ function domlevelfind(level) {
 	{
 		return "Element not found"
 	}
-	let level=1;
+	let count=1;
 	let current=element;
 	while (current.parentNode) {
-		level++;
+		count++;
 		current += parrentNode;
 	}
-	return level;
+	return count;
 }
 
-const elemid="level";
+const elemid="count";
 const domlevel=domlevelfind(elemid);
 if(domlevel !== "Element not found")
 {
@@ -25,5 +25,6 @@ else
 {
 	alert(domlevel)
 }
+
 
 
